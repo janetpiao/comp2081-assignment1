@@ -1,14 +1,31 @@
+.birthstone-regular {
+  font-family: "Birthstone", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   padding: 40px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Birthstone", cursive;
   color: #222;
   text-align: left;
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 100px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+h3 {
+  color: #222;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  font-size: 28px;
 }
 
 h4 {
@@ -16,6 +33,7 @@ h4 {
   text-align: left;
   margin-top: 0px;
   margin-bottom: 20px;
+  font-size: 24px;
 }
 
 h5 {
@@ -23,9 +41,35 @@ h5 {
   text-align: left;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-size: 20px;
 }
 
-.hero > img {
+/* header */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header img {
+  height: 60px;
+  margin-right: 0px;
+}
+
+header h4 {
+  font-size: 18px;
+  margin: 0px;
+  color: rgb(0, 6, 33);
+}
+
+/* hero image section  */
+.hero {
+  margin-bottom: 60px;
+}
+
+.hero img {
   width: 100%;
   height: auto;
 }
@@ -37,7 +81,7 @@ h5 {
   justify-content: flex-start;
   align-items: left;
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   gap: 40px;
 }
 
