@@ -1,6 +1,109 @@
+body {
+  padding: 40px;
+}
+
 h1 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  color: rgb(255, 255, 255);
-  text-align: center;
+  color: #222;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #222;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: #222;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.hero > img {
+  width: 100%;
+  height: auto;
+}
+
+/* subtitle & content */
+.subtitle-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: left;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  gap: 40px;
+}
+
+.subtitle {
+  flex: 1;
+}
+
+.content {
+  flex: 2;
+}
+.content > p {
+  margin-bottom: 10px;
+}
+
+.content-p {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.content-p1 {
+  flex: 1;
+}
+
+.content-p2 {
+  flex: 1;
+}
+
+/* projects */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  padding: 40px;
+  background-color: rgb(213, 247, 255);
+  border-radius: 20px;
+}
+
+.projects > h4 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+  margin-bottom: 10px;
+}
+
+.project1 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  margin-bottom: 20px;
+}
+
+.project2 {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  margin-bottom: 20px;
+}
+
+.project3 {
+  grid-column: 3/4;
+  grid-row: 2/4;
+  margin-bottom: 20px;
+}
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
 }
